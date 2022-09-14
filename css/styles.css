@@ -18,6 +18,10 @@
   text-decoration: none;
 }
 
+.home:hover,
+.home:focus {
+  color: #d41443;
+}
 .home {
   text-decoration: none;
   position: absolute;
@@ -32,7 +36,11 @@
   line-height: 21px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.us:hover,
+.us:focus {
+  color: #d41443;
 }
 .us {
   text-decoration: none;
@@ -48,9 +56,13 @@
   line-height: 21px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
+.made:hover,
+.made:focus {
+  color: #d41443;
+}
 .made {
   text-decoration: none;
   position: absolute;
@@ -65,7 +77,11 @@
   line-height: 21px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.products:hover,
+.products:focus {
+  color: #d41443;
 }
 .products {
   text-decoration: none;
@@ -81,7 +97,11 @@
   line-height: 21px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.contact:hover,
+.contact:focus {
+  color: #d41443;
 }
 .contact {
   text-decoration: none;
@@ -97,5 +117,29 @@
   line-height: 21px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.buy {
+  color: #d41443;
+  border-radius: 22px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+.producto {
+  color: #ffffff;
+  border-radius: 20px;
+  background: #d41443;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+.how {
+  color: #d41443;
+  border-radius: 20px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: "DM Sans";
+  font-style: normal;
 }
